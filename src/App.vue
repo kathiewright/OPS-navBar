@@ -16,6 +16,12 @@ export default {
   },
   components: {
     appNavBar: navBar,
+  },
+  created() {
+    //initialize users array
+    this.$store.dispatch('initUsers');
+    //initialize addresses array
+    this.$store.dispatch('initAddresses');
   }
 }
 </script>

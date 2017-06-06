@@ -17,5 +17,6 @@ new Vue({
   //add router to vue
   router,
   //add store to vue
+  store,
   render: h => h(App)
 })

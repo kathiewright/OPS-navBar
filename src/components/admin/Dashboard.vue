@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    import Table from './modules/user_table/Table.vue';
+    import Table from './modules/userTable/Table.vue';
 
     export default {
         components: {
